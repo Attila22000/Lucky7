@@ -8,7 +8,7 @@ public class Main {
 		
 		Scanner in= new Scanner(System.in);
 		Random rand = new Random();
-		System.out.println("How much money would you like to spend?");
+		System.out.println("Hello. How much money would you like to spend?");
 		int money = in.nextInt();
 		int spin= 1;
 		int ten = 10;
@@ -50,7 +50,6 @@ public class Main {
 		}
 		else {
 			System.out.println("You ran out of money! Better luck next time.");
-			
 			break;
 		}
 		playagain =in.nextLine();
