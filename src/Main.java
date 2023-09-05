@@ -50,6 +50,7 @@ public class Main {
 		}
 		else {
 			System.out.println("You ran out of money! Better luck next time.");
+			
 			break;
 		}
 		playagain =in.nextLine();
